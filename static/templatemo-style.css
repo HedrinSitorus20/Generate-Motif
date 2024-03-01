@@ -170,7 +170,7 @@ a:hover { color:#002BA3; }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color:#086969;
+    background-color:#0244fa;
 }
 
 .btn-primary.disabled, 
@@ -239,8 +239,11 @@ a.tm-text-primary:hover { color:#666666; }
 
 .nav-link-3.active,
 .nav-link-3:hover {
-    border-color: #33CC66;
+    border-color: #002BA3;
 }
+/* .nav-link-3:hover {
+    border-color: #33CC66;
+} */
 
 .nav-link-4.active,
 .nav-link-4:hover {
@@ -258,7 +261,7 @@ a.tm-text-primary:hover { color:#666666; }
 
 .tm-search-input:focus {
     border-color: #002BA3;
-    box-shadow: 0 0 0 0.25rem rgb(0 153 153 / 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(3, 60, 248, 0.25);
 }
 
 .tm-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

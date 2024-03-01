@@ -51,6 +51,14 @@ p {
 
 #IDImage2{
     display: none;
+    width: 24px;
+    height: 24px;
+}
+
+#IDImage1{
+    display: none;
+    width: 24px;
+    height: 24px;
 }
 
 select:active{
@@ -245,7 +253,7 @@ input::file-selector-button {
 }
 
 input[type="file"] {
-	background: url(/static/img/icon/icons8-upload.gif);
+	background: url(/static/img/icon/icons8-upload_1.gif);
     background-size:10%;
     background-position-x: center;
     background-position-y: center;
