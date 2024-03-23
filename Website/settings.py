@@ -67,6 +67,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['templates'],
+        # 'DIRS': [BASE_DIR / 'templates/'], #path in server
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -147,4 +148,4 @@ STATIC_ROOT = 'staticfiles'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STATICFILES_DIRS = ((os.path.join(BASE_DIR, 'static')), )
+STATICFILES_DIRS = ((os.path.join(BASE_DIR, 'static/')), )
